@@ -62,7 +62,9 @@ html, body{
 .row #contactMe {
 	padding-top: 2rem;
 }
-
+}
+.row #contactMeText {
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
