@@ -27,11 +27,9 @@ html, body{
 	transform: translateY(-50%);
 }
 .carousel-caption h1{
-	font-size: 500%;
 	text-shadow: 1px 1px 15px #000;
 }
 .carousel-caption h3{
-	font-size: 500%;
 	text-shadow: 1px 1px 10px #000;
 }
 </style>
