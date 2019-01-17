@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 
-#landindPage{
-	height: 100%;
-	padding: 0;
-}
 html, body{
 	height: 100%;
 	width: 100%,
@@ -20,6 +16,10 @@ html, body{
 }
 .nav-link{
 	font-size: 1.1em !important;
+}
+#landindPage{
+	height: 100%;
+	padding: 0;
 }
 .carousel-slide{
 	width: 100%;
