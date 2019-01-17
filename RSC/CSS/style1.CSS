@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 
-
 html, body{
 	height: 100%;
 	width: 100%,
@@ -20,7 +19,7 @@ html, body{
 }
 .carousel-inner img{
 	height: 100%;
-	width: 100%,
+	width: 100%;
 }
 .carousel-caption{
 	position: absolute;
