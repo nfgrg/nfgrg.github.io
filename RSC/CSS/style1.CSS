@@ -59,7 +59,9 @@ html, body{
 	margin-top: .3rem;
 	margin-bottom: 1rem;
 }
-
+.row #contactMe {
+	padding-top: 2rem;
+}
 
 
 
