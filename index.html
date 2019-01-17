@@ -12,28 +12,71 @@
     <body>
         <!---->
         <!--NAVIGATION BAR-->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Hidden brand</a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gregory Nicolas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#navbarResponsive">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <!-- <li class="nav-item active">  -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        </nav>
+        <!--- IMAGE SLIDER -->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg"/>
+                    <div class="carousel-caption">
+                        <h1 class="display-1">Gregory</h1>
+                        <h3>Description</h3>
+                        <button type="button" class="btn btn-ouline-light btn-lg">Down Arrow</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <h1>My First Bootstrap Page</h1>
+            <p>This part is inside a .container class.</p> 
+            <p>The .container class provides a responsive fixed width container.</p>
+            Hello world!
+            
+            <div id="about">
+                <h1>About Me Div</h1>
+                <p>Hello world!</p> 
+                <p>Hello world!</p>
+            </div>
+            <div id="contact">
+                <h1>Contact Me Div</h1>
+                <p>Hello world!</p> 
+                <p>Hello world!</p>
+            </div>
+        </div>
     </body>
 </html>
