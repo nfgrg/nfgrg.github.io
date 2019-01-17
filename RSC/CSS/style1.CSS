@@ -39,6 +39,7 @@ html, body{
 }
 .carousel-caption h1{
 	text-shadow: 1px 1px 15px #000;
+	text-transform: uppercase;
 }
 .carousel-caption h3{
 	text-shadow: 1px 1px 10px #000;
@@ -50,6 +51,7 @@ html, body{
 .welcome {
 	width: 75%;
 	margin: 0 auto;
+	padding-top: 2rem;
 }
 
 
