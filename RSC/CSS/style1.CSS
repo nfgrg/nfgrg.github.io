@@ -10,6 +10,7 @@ html, body{
 }
 #landindPage{
 	height: 100%;
+	padding: 0;
 }
 .navbar{
 	padding: .8rem;
