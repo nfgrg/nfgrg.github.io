@@ -27,7 +27,7 @@ html, body{
 }
 .carousel-inner img{
 	width: 100%;
-	object-fit: cover;
+	object-fit: contain;
 }
 .carousel-caption{
 	position: absolute;
