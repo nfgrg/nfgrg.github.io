@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 
+#landindPage{
+	height: 100%;
+	padding: 0;
+}
 html, body{
 	height: 100%;
 	width: 100%,
 	font-family:'IBM Plex Sans', sans-serif;
 	color: #222;
-}
-#landindPage{
-	height: 100%;
-	padding: 0;
 }
 .navbar{
 	padding: .8rem;
