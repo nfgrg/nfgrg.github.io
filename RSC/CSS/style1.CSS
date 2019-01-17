@@ -17,8 +17,8 @@ html, body{
 .nav-link{
 	font-size: 1.1em !important;
 }
-.carousel-inner img{
-	height: 50%;
+.carousel-inner{
+	height: 100%;
 	width: 100%;
 }
 .carousel-caption{
@@ -92,6 +92,12 @@ html, body{
 	.carousel-caption .btn{
 		font-size: 90%;
 		padding: 4px 8 px;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+	.display-4{
+		font-size: 2160%;
 	}
 }
 
