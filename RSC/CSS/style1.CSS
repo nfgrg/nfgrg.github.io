@@ -8,6 +8,10 @@ html, body{
 	font-family:'IBM Plex Sans', sans-serif;
 	color: #222;
 }
+#landindPage{
+	height: 100%;
+	width: 100%,
+}
 .navbar{
 	padding: .8rem;
 }
