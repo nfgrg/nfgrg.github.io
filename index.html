@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     </head>
     <body>
         <!---->
@@ -35,5 +36,41 @@
                 </div>
             </div>  
         </nav>
+        <!--- IMAGE SLIDER -->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item" class="active">
+                    <img src="https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <h1>My First Bootstrap Page</h1>
+            <p>This part is inside a .container class.</p> 
+            <p>The .container class provides a responsive fixed width container.</p>
+            Hello world!
+            
+            <div id="about">
+                <h1>About Me Div</h1>
+                <p>Hello world!</p> 
+                <p>Hello world!</p>
+            </div>
+            <div id="contact">
+                <h1>Contact Me Div</h1>
+                <p>Hello world!</p> 
+                <p>Hello world!</p>
+            </div>
+        </div>
     </body>
 </html>
