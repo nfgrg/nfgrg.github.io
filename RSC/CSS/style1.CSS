@@ -42,5 +42,18 @@ html, body{
 }
 .carousel-caption h3{
 	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
 }
+.padding {
+	padding-bottom: 2rem;
+}
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+}
+
+
+
+
+
 </style>
