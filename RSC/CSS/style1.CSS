@@ -23,7 +23,7 @@ html, body{
 }
 .carousel-slide{
 }
-.carousel-inner img{
+.carousel-inner img.img-fluid{
 	max-width: 100%;
 	height: auto;
 }
