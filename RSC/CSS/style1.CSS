@@ -18,18 +18,15 @@ html, body{
 	font-size: 1.1em !important;
 }
 #landindPage{
-	height: 100%;
+	max-width: 100%;
+	height: auto;
 	padding: 0;
 }
 .carousel-slide{
-	width: 100%;
-	height: auto;
-}
-.carousel-inner img{
 	max-width: 100%;
 	height: auto;
 }
-.img-fluid{
+.carousel-inner img{
 	max-width: 100%;
 	height: auto;
 }
