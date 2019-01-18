@@ -19,12 +19,9 @@ html, body{
 }
 #landindPage{
 	max-width: 100%;
-	height: auto;
 	padding: 0;
 }
 .carousel-slide{
-	max-width: 100%;
-	height: auto;
 }
 .carousel-inner img{
 	max-width: 100%;
