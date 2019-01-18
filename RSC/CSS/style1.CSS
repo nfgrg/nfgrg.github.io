@@ -27,6 +27,8 @@ html, body{
 .carousel-inner img.img-fluid{
 	max-height: 100%;
 	max-width: 100%;
+	position: relative;
+	top: 0px;
 }
 .carousel-caption{
 	position: absolute;
