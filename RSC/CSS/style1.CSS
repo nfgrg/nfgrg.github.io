@@ -19,11 +19,12 @@ html, body{
 }
 #landindPage{
 	width: 100%;
+	height: 100%;
 	padding: 0;
 }
 .carousel-slide{
 }
-.carousel-inner img.img-fluid{
+.carousel-inner img{
 	max-width: 100%;
 	height: 50%;
 	object-fit: fill;
@@ -66,12 +67,6 @@ html, body{
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {
-	.carousel-inner img.img-fluid{
-		max-width: 100%;
-		height: auto;
-		object-fit: fill;
-	}
-
   }
 @media (max-width: 768px) {
 	.carousel-caption{
