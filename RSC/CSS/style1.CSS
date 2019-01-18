@@ -26,8 +26,11 @@ html, body{
 	height: 100%;
 }
 .carousel-inner img{
-	width: 100%;
-	object-fit: contain;
+	max-width: 100%;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
 }
 .carousel-caption{
 	position: absolute;
