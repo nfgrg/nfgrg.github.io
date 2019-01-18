@@ -24,9 +24,13 @@ html, body{
 }
 .carousel-slide{
 }
-.carousel-inner img{
+.carousel-inner img.img-fluid{
+	max-height: 100%;
 	max-width: 100%;
-	object-fit: fill;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
 }
 .carousel-caption{
 	position: absolute;
