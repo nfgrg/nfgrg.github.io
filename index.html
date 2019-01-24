@@ -10,13 +10,21 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <link href="RSC/CSS/style1.CSS" rel="stylesheet" media="screen">
         <script>
-        function myFunction() {
+        $(window).load(function myFunction() {
+            // run code
+            var elmnt = document.getElementById(".navbar");
+            var heightPXL = elmnt.offsetHeight + "px";
+            alert(heightPXL);
+            document.getElementById(".carousel-inner img.img-fluid").css("top", "-"+heightPXL);
+
+        });
+        function myFunction1() {
           var elmnt = document.getElementById(".navbar");
           var heightPXL = elmnt.offsetHeight + "px";
           alert(heightPXL);
           document.getElementById(".carousel-inner img.img-fluid").css("top", "-"+heightPXL);
         }
-        myFunction()
+        //myFunction()
         </script>
     </head>
     <body id="Top">
