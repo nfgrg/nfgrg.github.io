@@ -176,31 +176,31 @@
                     window.onload = function() {document.contactForm.action = get_action();}
 
                     function get_action() {
-                        user = 'gfnicolas91';
-                        site = 'gmail.com';
-                        return "https://formspree.io/" + user + '@' + site;
+                        formID = 'xbjbjwqo';
+                        site = 'https://formspree.io/f/';
+                        return site + formID;
                     }</script>
                     <form name="contactForm" method="POST"> 
                         <div class="form-row">
                             <div class="form-group col-sm-6">
                                 <label for="InputFirstName">First name</label>
-                                <input type="text" class="form-control" id="InputFirstName" placeholder="Enter your first name"/>
+                                <input name="FirstName" type="text" class="form-control" id="InputFirstName" placeholder="Enter your first name"/>
                             </div>
                             <div class="form-group col-sm-6">
                                 <label for="InputLastName">Last name</label>
-                                <input type="text" class="form-control" id="InputLastName" placeholder="Enter your last name"/>
+                                <input name="LastName" type="text" class="form-control" id="InputLastName" placeholder="Enter your last name"/>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-sm-12">
                                 <label for="InputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                                <input name="SenderEmail" type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-sm-12">
                                 <label for="inputMessageTextArea1">Message</label>
-                                <textarea class="form-control" id="inputMessageTextArea1" rows="4"  placeholder="Enter your message"></textarea>
+                                <textarea name="SenderMessage" class="form-control" id="inputMessageTextArea1" rows="4"  placeholder="Enter your message"></textarea>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Send</button>
