@@ -49,6 +49,9 @@ html, body{
 .padding {
 	padding-bottom: 2rem;
 }
+.card {
+    background-color: #343a40;
+}
 #skillset.card.card-body{
 	justify-content: space-evenly;
 }
