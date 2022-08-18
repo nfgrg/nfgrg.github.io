@@ -7,10 +7,9 @@ html, body{
 	width: 100%,
 	font-family:'IBM Plex Sans', sans-serif;
 	color: #222;
-	background-color: hsl(210, 17%, 15%);
 }
 body{
-	background-color: hsl(210, 17%, 15%) !important;
+	background-color: hsl(210, 40%, 20%) !important;
 }
 .navbar{
 	padding: .8rem;
