@@ -49,6 +49,10 @@ html, body{
 .padding {
 	padding-bottom: 2rem;
 }
+#skillset.card.card-body{
+	justify-content: space-evenly;
+}
+
 .welcome {
 	width: 75%;
 	margin: 0 auto;
