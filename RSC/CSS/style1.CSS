@@ -50,7 +50,7 @@ html, body{
 	padding-bottom: 2rem;
 }
 .card {
-    background-color: hsl(225, 51%, 15%);
+    background-color: hsl(210, 100%, 15%);
 }
 #skillset.card.card-body{
 	justify-content: space-evenly;
